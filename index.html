@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crypto</title>
+</head>
+<body>
+
+    <div class="wrap">
+        <div class="container-1 container">
+            <div class="output-1 output"></div>
+            <div class="output-2 output"></div>
+        </div>
+        <div class="container-2 container">
+            <div class="output-3 output"></div>
+            <div class="output-4 output"></div>
+        </div>
+    </div>
+    <div class="initial-phrase"><span>Изначальная фраза:</span> </div>
+    <div class="result"><span>Зашифрованная фраза: </span></div>
+    <!-- <script src="doubleWitstonSquare.js"></script>
+    <script src="caesarAffineSystem.js"></script>
+    <script src="caesarSystemWithKeyword.js"></script> -->
+    <script src="doublePermutation.js"></script>
+
+    <style>
+
+
+        .output {
+          font-family: sans-serif;
+          font-weight: bold;
+          font-size: 1.2em;
+          letter-spacing: .7em;
+          max-height: 300px;
+          max-width: 500px;
+        }
+
+        .output-1 {
+            margin-bottom: 1em;
+            margin-right: 3em;
+        }
+
+        .output div {
+            letter-spacing: .8em;
+            line-height: 1.2em;
+            /* text-align: center; */
+        }
+
+        .container {
+            display: flex;
+            margin: 1.5em;
+        }
+
+        .output-3 {
+            display: flex;
+        }
+
+        .output-4 {
+            display: flex;
+            margin-left: 3em;
+        }
+
+        .col {
+            width: .7em; 
+            margin: 0 .5em;
+            text-align: center; 
+            font: Consolas, Monaco, monospace; word-wrap: break-word;
+        }
+
+        .result, .initial-phrase {
+            font-family: sans-serif;
+            font-weight: bold;
+            font-size: 1.2em;
+            margin-left: 2em;
+        }
+    </style>
+</body>
+</html>
